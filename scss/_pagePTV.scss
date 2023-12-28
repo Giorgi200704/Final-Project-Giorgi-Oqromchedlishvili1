@@ -1,0 +1,312 @@
+@mixin tablet {
+  @media (width <= 768px) {
+    @content;
+  }
+}
+@mixin mobileL {
+  @media (width <= 425px) {
+    @content;
+  }
+}
+@mixin mobileS {
+  @media (width <= 380px) {
+    @content;
+  }
+}
+.meinimg {
+  height: 601px;
+  background-image: url("/photos/meinimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    font-size: 79px;
+    font-weight: 700;
+    margin-bottom: 31px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+}
+.list {
+  .zemo {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    @include tablet {
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 20.25vw;
+      height: 41.785252263906855vh;
+      @include tablet {
+        width: 37vw;
+        align-items: center;
+      }
+      @include mobileL {
+        width: 69vw;
+      }
+      @include mobileS {
+        width: 90vw;
+      }
+    }
+    h3 {
+      display: flex;
+      justify-content: center;
+      color: #000000;
+      font-family: kalnia;
+      font-size: 29px;
+      font-weight: 400;
+      margin-top: 34px;
+      margin-bottom: 48px;
+    }
+    a {
+      text-decoration: none;
+      border-radius: 20px;
+      background-color: #000000;
+      border: 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20.25vw;
+      height: 8.796895213454075vh;
+      @include tablet {
+        margin-left: 22%;
+      }
+      @include mobileL {
+        width: 38.5vw;
+      }
+      @include mobileS {
+        width: 55vw;
+        margin-left: 20%;
+      }
+      p {
+        color: #fff;
+        font-family: kalnia;
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+  }
+  .shua {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 190px;
+    @include mobileS {
+      margin-top: 55px;
+    }
+    @include tablet {
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 20.25vw;
+      height: 41.91461836998706vh;
+      @include tablet {
+        width: 37vw;
+        align-items: center;
+      }
+      @include mobileL {
+        width: 69vw;
+      }
+      @include mobileS {
+        width: 90vw;
+      }
+    }
+    h3 {
+      display: flex;
+      justify-content: center;
+      color: #000;
+      font-family: kalnia;
+      font-size: 29px;
+      font-weight: 400;
+      margin-top: 34px;
+      margin-bottom: 48px;
+    }
+    a {
+      text-decoration: none;
+      border-radius: 20px;
+      background-color: #000000;
+      border: 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20.25vw;
+      height: 8.796895213454075vh;
+      @include tablet {
+        margin-left: 22%;
+      }
+      @include mobileL {
+        width: 38.5vw;
+      }
+      @include mobileS {
+        width: 55vw;
+        margin-left: 20%;
+      }
+      p {
+        color: #fff;
+        font-family: kalnia;
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+  }
+  .qvemo {
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    @include mobileS {
+      margin-top: 55px;
+    }
+    @include tablet {
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 20.25vw;
+      height: 41.91461836998706vh;
+      @include tablet {
+        width: 37vw;
+        align-items: center;
+      }
+      @include mobileL {
+        width: 69vw;
+      }
+      @include mobileS {
+        width: 90vw;
+      }
+    }
+    h3 {
+      display: flex;
+      justify-content: center;
+      color: #000;
+      font-family: kalnia;
+      font-size: 29px;
+      font-weight: 400;
+      margin-top: 34px;
+      margin-bottom: 48px;
+      width: 20.1875vw;
+      @include tablet {
+        margin-left: 22%;
+        text-align-last: center;
+        text-align: center;
+      }
+      @include mobileL {
+        margin-left: 35%;
+      }
+      @include mobileS {
+        margin-left: 38%;
+      }
+    }
+    a {
+      text-decoration: none;
+      border-radius: 20px;
+      background-color: #000000;
+      border: 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20.25vw;
+      height: 8.796895213454075vh;
+      @include tablet {
+        margin-left: 22%;
+      }
+      @include mobileL {
+        width: 38.5vw;
+      }
+      @include mobileS {
+        width: 55vw;
+        margin-left: 19%;
+      }
+      p {
+        color: #fff;
+        font-family: kalnia;
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .cubes {
+    display: flex;
+    justify-content: center;
+    margin-top: 134px;
+    gap: 8px;
+    margin-bottom: 190px;
+    .N1 {
+      width: 2.5vw;
+      height: 5.174644243208279vh;
+      background-color: #d9d9d9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      font-family: kalnia;
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+      @include tablet {
+        width: 4.5vw;
+      }
+      @include mobileL {
+        width: 8.5vw;
+      }
+      @include mobileS {
+        width: 11.5vw;
+      }
+    }
+    .N2 {
+      width: 2.5vw;
+      height: 5.174644243208279vh;
+      background: rgba(217, 217, 217, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      font-family: kalnia;
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+      @include tablet {
+        width: 4.5vw;
+      }
+      @include mobileL {
+        width: 8.5vw;
+      }
+      @include mobileS {
+        width: 11.5vw;
+      }
+    }
+    .N3 {
+      width: 2.5vw;
+      height: 5.174644243208279vh;
+      background: rgba(217, 217, 217, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      font-family: kalnia;
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+      @include tablet {
+        width: 4.5vw;
+      }
+      @include mobileL {
+        width: 8.5vw;
+      }
+      @include mobileS {
+        width: 11.5vw;
+      }
+    }
+  }
+}

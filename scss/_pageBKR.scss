@@ -1,0 +1,18 @@
+.Bakuriani-img {
+  height: 606px;
+  background-image: url("/photos/Bakuriani-img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    font-size: 79px;
+    font-weight: 700;
+    margin-bottom: 31px;
+    justify-content: center;
+    align-items: center;
+    color: #868686;
+  }
+}

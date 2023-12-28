@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.gergeti-img {
+  height: 606px;
+  background-image: url("/photos/gergeti-large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    font-size: 79px;
+    font-weight: 700;
+    margin-bottom: 31px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+}
+.centralcont {
+  display: flex;
+  .centralbox1 {
+    ul {
+      li {
+        color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        padding-top: 107px;
+        padding-left: 83px;
+      }
+    }
+    img {
+      width: 799px;
+      height: 755px;
+      flex-shrink: 0;
+      padding-top: 108px;
+      padding-left: 83px;
+    }
+  }
+  .centralbox2 {
+    margin-top: 200px;
+    margin-left: 74px;
+    gap: 27px;
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    padding-top: 150px;
+  }
+  h3 {
+    color: #000;
+    font-family: "Kaushan Script", cursive;
+    font-size: 64px;
+    font-weight: 400;
+  }
+  p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 400;
+    width: 900px;
+    height: 222px;
+    flex-shrink: 0;
+  }
+  h4 {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+  }
+}

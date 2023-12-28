@@ -1,0 +1,918 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.headcont {
+  background-color: #927e7e;
+  color: #fff;
+  position: relative;
+  height: 136px;
+  width: 100%;
+  padding: 61px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headcont a {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.headcont .LOGO123 {
+  width: 35%;
+}
+.headcont .icon1 {
+  color: #000;
+  font-size: 25px;
+}
+.headcont .icon2 {
+  display: none;
+}
+
+section .mountains {
+  height: 806px;
+  background-image: url("/photos/tbilisi-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .mountains h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+section .mountains p {
+  font-size: 26px;
+  color: #fff;
+}
+section .mountains a {
+  margin: 40px;
+  width: 200px;
+  height: 68px;
+  background-color: rgba(187, 116, 24, 0.856);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .line {
+  display: flex;
+  margin-top: 98px;
+  gap: 13px;
+  align-items: center;
+  margin-bottom: 102px;
+}
+.container .line .leftline {
+  height: 1px;
+  width: 253px;
+  background-color: #000;
+}
+.container .line .rightline {
+  height: 1px;
+  width: 253px;
+  background-color: #000;
+}
+.container .line h2 {
+  color: #000;
+  font-family: georgia;
+  font-size: 36px;
+  font-weight: 400;
+}
+.container .boxx {
+  gap: 45px;
+  display: flex;
+  justify-content: center;
+}
+.container .boxx img {
+  width: 324px;
+  height: 324px;
+  display: flex;
+}
+.container .boxx h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background: #e4e4e4;
+  display: flex;
+}
+footer .left {
+  padding-left: 24px;
+  padding-top: 35px;
+  padding-bottom: 24px;
+}
+footer .left img {
+  margin-bottom: 44px;
+}
+footer .left ul li {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+footer .left .Geo {
+  display: flex;
+  gap: 14px;
+  margin-top: 50px;
+  align-items: center;
+}
+footer .left .Geo i {
+  font-size: 28px;
+}
+footer .left .Geo p {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.help {
+  margin-left: 201px;
+}
+.help h3 {
+  color: #000;
+  font-family: Kaushan Script;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 61px;
+}
+.help .line {
+  width: 173.003px;
+  height: 1px;
+  background: #000;
+  margin-top: 4.5px;
+  margin-bottom: 32.5px;
+}
+.help ul li {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+
+.cont {
+  margin-left: 80px;
+}
+.cont h3 {
+  color: #000;
+  font-family: Kaushan Script;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 61px;
+}
+.cont .line {
+  width: 173.003px;
+  height: 1px;
+  background: #000;
+  margin-top: 4.5px;
+  margin-bottom: 32.5px;
+}
+.cont ul li {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+
+.searchbox {
+  padding-top: 350px;
+  padding-left: 0px;
+}
+.searchbox .search {
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.searchbox .search input {
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transform: 0.8s;
+  background: transparent;
+}
+.searchbox .search a .fas {
+  color: aqua;
+  font-size: 18px;
+}
+.searchbox .search:hover input {
+  width: 300px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.SinginN1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/photos/Georgian_Fortress_Ananuri.jpg) no-repeat;
+  background-size: cover;
+  background-position: cover;
+}
+.SinginN1 .wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.SinginN1 .wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.SinginN1 .wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.SinginN1 .wrapper .input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.SinginN1 .wrapper .input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.SinginN1 .wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SinginN1 .wrapper .remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+.SinginN1 .wrapper .remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+.SinginN1 .wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.SinginN1 .wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.SinginN1 .wrapper .register-link p {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SinginN1 .wrapper .register-link a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-box input::-moz-placeholder {
+  color: #fff;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.boxx2 {
+  display: flex;
+}
+.boxx2 .backbox {
+  height: 655px;
+  background-image: url("/photos/skiing-bakuriani.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.boxx2 .backbox h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.boxx2 .backbox p {
+  font-size: 26px;
+  color: #000000;
+}
+
+.container .boxxx1 {
+  gap: 45px;
+  display: flex;
+  justify-content: center;
+}
+.container .boxxx1 img {
+  width: 324px;
+  height: 324px;
+  display: flex;
+}
+.container .boxxx1 h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.container .boxxx1 p {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.gergeti-img {
+  height: 606px;
+  background-image: url("/photos/gergeti-large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gergeti-img h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.centralcont {
+  display: flex;
+}
+.centralcont .centralbox1 ul li {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 107px;
+  padding-left: 83px;
+}
+.centralcont .centralbox1 img {
+  width: 799px;
+  height: 755px;
+  flex-shrink: 0;
+  padding-top: 108px;
+  padding-left: 83px;
+}
+.centralcont .centralbox2 {
+  margin-top: 200px;
+  margin-left: 74px;
+  gap: 27px;
+  display: flex;
+  flex-direction: column;
+}
+.centralcont iframe {
+  padding-top: 150px;
+}
+.centralcont h3 {
+  color: #000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 64px;
+  font-weight: 400;
+}
+.centralcont p {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 400;
+  width: 900px;
+  height: 222px;
+  flex-shrink: 0;
+}
+.centralcont h4 {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.Bakuriani-img {
+  height: 606px;
+  background-image: url("/photos/Bakuriani-img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Bakuriani-img h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #868686;
+}
+
+.meinimg {
+  height: 601px;
+  background-image: url("/photos/meinimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.meinimg h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.list .zemo {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+@media (width <= 768px) {
+  .list .zemo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.list .zemo img {
+  width: 20.25vw;
+  height: 41.7852522639vh;
+}
+@media (width <= 768px) {
+  .list .zemo img {
+    width: 37vw;
+    align-items: center;
+  }
+}
+@media (width <= 425px) {
+  .list .zemo img {
+    width: 69vw;
+  }
+}
+@media (width <= 380px) {
+  .list .zemo img {
+    width: 90vw;
+  }
+}
+.list .zemo h3 {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-family: kalnia;
+  font-size: 29px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 48px;
+}
+.list .zemo a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20.25vw;
+  height: 8.7968952135vh;
+}
+@media (width <= 768px) {
+  .list .zemo a {
+    margin-left: 22%;
+  }
+}
+@media (width <= 425px) {
+  .list .zemo a {
+    width: 38.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .zemo a {
+    width: 55vw;
+    margin-left: 20%;
+  }
+}
+.list .zemo a p {
+  color: #fff;
+  font-family: kalnia;
+  font-size: 30px;
+  font-weight: 400;
+}
+.list .shua {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 190px;
+}
+@media (width <= 380px) {
+  .list .shua {
+    margin-top: 55px;
+  }
+}
+@media (width <= 768px) {
+  .list .shua {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.list .shua img {
+  width: 20.25vw;
+  height: 41.91461837vh;
+}
+@media (width <= 768px) {
+  .list .shua img {
+    width: 37vw;
+    align-items: center;
+  }
+}
+@media (width <= 425px) {
+  .list .shua img {
+    width: 69vw;
+  }
+}
+@media (width <= 380px) {
+  .list .shua img {
+    width: 90vw;
+  }
+}
+.list .shua h3 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 29px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 48px;
+}
+.list .shua a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20.25vw;
+  height: 8.7968952135vh;
+}
+@media (width <= 768px) {
+  .list .shua a {
+    margin-left: 22%;
+  }
+}
+@media (width <= 425px) {
+  .list .shua a {
+    width: 38.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .shua a {
+    width: 55vw;
+    margin-left: 20%;
+  }
+}
+.list .shua a p {
+  color: #fff;
+  font-family: kalnia;
+  font-size: 30px;
+  font-weight: 400;
+}
+.list .qvemo {
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+@media (width <= 380px) {
+  .list .qvemo {
+    margin-top: 55px;
+  }
+}
+@media (width <= 768px) {
+  .list .qvemo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.list .qvemo img {
+  width: 20.25vw;
+  height: 41.91461837vh;
+}
+@media (width <= 768px) {
+  .list .qvemo img {
+    width: 37vw;
+    align-items: center;
+  }
+}
+@media (width <= 425px) {
+  .list .qvemo img {
+    width: 69vw;
+  }
+}
+@media (width <= 380px) {
+  .list .qvemo img {
+    width: 90vw;
+  }
+}
+.list .qvemo h3 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 29px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 48px;
+  width: 20.1875vw;
+}
+@media (width <= 768px) {
+  .list .qvemo h3 {
+    margin-left: 22%;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    text-align: center;
+  }
+}
+@media (width <= 425px) {
+  .list .qvemo h3 {
+    margin-left: 35%;
+  }
+}
+@media (width <= 380px) {
+  .list .qvemo h3 {
+    margin-left: 38%;
+  }
+}
+.list .qvemo a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20.25vw;
+  height: 8.7968952135vh;
+}
+@media (width <= 768px) {
+  .list .qvemo a {
+    margin-left: 22%;
+  }
+}
+@media (width <= 425px) {
+  .list .qvemo a {
+    width: 38.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .qvemo a {
+    width: 55vw;
+    margin-left: 19%;
+  }
+}
+.list .qvemo a p {
+  color: #fff;
+  font-family: kalnia;
+  font-size: 30px;
+  font-weight: 400;
+}
+.list .cubes {
+  display: flex;
+  justify-content: center;
+  margin-top: 134px;
+  gap: 8px;
+  margin-bottom: 190px;
+}
+.list .cubes .N1 {
+  width: 2.5vw;
+  height: 5.1746442432vh;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .list .cubes .N1 {
+    width: 4.5vw;
+  }
+}
+@media (width <= 425px) {
+  .list .cubes .N1 {
+    width: 8.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .cubes .N1 {
+    width: 11.5vw;
+  }
+}
+.list .cubes .N2 {
+  width: 2.5vw;
+  height: 5.1746442432vh;
+  background: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .list .cubes .N2 {
+    width: 4.5vw;
+  }
+}
+@media (width <= 425px) {
+  .list .cubes .N2 {
+    width: 8.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .cubes .N2 {
+    width: 11.5vw;
+  }
+}
+.list .cubes .N3 {
+  width: 2.5vw;
+  height: 5.1746442432vh;
+  background: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .list .cubes .N3 {
+    width: 4.5vw;
+  }
+}
+@media (width <= 425px) {
+  .list .cubes .N3 {
+    width: 8.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .cubes .N3 {
+    width: 11.5vw;
+  }
+}/*# sourceMappingURL=global.css.map */
